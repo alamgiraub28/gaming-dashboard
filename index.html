@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Link-->
     <link rel="stylesheet" href="style.css">
+    <!--Font Awesome Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Gaming Dashboard</title>
 </head>
 <body>
-
-   
     <section class="dashboard">
+        <!--Header start-->
         <header class="header-section">
             <div class="container-fluid">
                 <nav class="navbar">
@@ -24,23 +26,102 @@
                 </nav>
             </div>
         </header>
+        <!--Header End-->
         <div class="container-fluid">
             <div class="row">
-                <!--Left-content start-->
-                <div class="col-md-9">
+                <!--Left-content-Start-->
+                <div class="col-md-9 col-sm-12">
                     <div class="row">
-                        <div class="col-md-3">
-                            <div class="side-screen my-2 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 col-sm-12">
+                            <!---Start Transaction Details-->
+                            <div class="side-screen my-2">
+                                <section class="top-items w-100">
+                                    <div class="items text-center">
+                                        <h6><span>M</span> Captain <span>Bot</span> Good Job</h6>
+                                        <div class="user-online d-flex justify-content-between align-items-center">
+                                            <h6>@demo7070! <i class="fa fa-smile-o" aria-hidden="true"></i></h6>
+                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="w-75 m-auto rounded mt-1 text-dark p-2 pr-5 d-flex justify-content-between align-items-center">
+                                    <img class="w-25" src="./user-pic.png" alt="">
+                                        <div class="user-menu-item bg-coeff">1.19x</div>
+                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                </div>
+                                <div class="user-online p-2 d-flex justify-content-between align-items-center">
+                                    <div >
+                                        <h6 class="text-center m-1 bg-primary p-2 rounded text-light">Cash Out<br> 166.00$</h6>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-center m-1 bg-warning p-2 rounded text-dark">Win <br> 166.00$</h6>
+                                    </div>                              
+                                </div>
+                                <div class="user-online p-2 d-flex justify-content-between align-items-center">
+                                    <div class="text-center m-1 text-warning">
+                                        <h6 class="round-bet">Round<br> 1.50x</h6>
+                                    </div>
+                                    <div class="text-center m-1 text-warning">
+                                        <h6 class="round-bet">BET<br> 166.00$</h6>
+                                    </div>                              
+                                </div>
                             </div>
-                            <div class="side-screen my-2 d-flex justify-content-center align-items-center">
+
+                            <div class="side-screen my-2">
+                                <section class="top-items w-100">
+                                    <div class="items text-center">
+                                        <h6><span>M</span> Captain <span>Bot</span> Good Job</h6>
+                                        <div class="user-online d-flex justify-content-between align-items-center">
+                                            <h6>@demo7070! <i class="fa fa-smile-o" aria-hidden="true"></i></h6>
+                                            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="w-75 m-auto rounded mt-1 text-dark p-2 pr-5 d-flex justify-content-between align-items-center">
+                                    <img class="w-25" src="./user-pic.png" alt="">
+                                        <div class="user-menu-item bg-coeff">1.19x</div>
+                                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                </div>
+                                <div class="user-online p-2 d-flex justify-content-between align-items-center">
+                                    <div >
+                                        <h6 class="text-center m-1 bg-primary p-2 rounded text-light">Cash Out<br> 166.00$</h6>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-center m-1 bg-warning p-2 rounded text-dark">Win <br> 166.00$</h6>
+                                    </div>                               
+                                </div>
+                                <div class="user-online p-2 d-flex justify-content-between align-items-center">
+                                    <div class="text-center m-1 text-warning">
+                                        <h6 class="round-bet">Round<br> 1.50x</h6>
+                                    </div>
+                                    <div class="text-center m-1 text-warning">
+                                        <h6 class="round-bet">BET<br> 166.00$</h6>
+                                    </div>                   
+                                </div>
                             </div>
-                            <div class="side-screen my-2 d-flex justify-content-center align-items-center">
+                            <!---End Transaction Details-->
+                            <!---Start Chat Screen-->
+                            <div class="side-screen-chat my-2 p-2 align-items-center justify-content-center">
+                                <form class="m-2">
+                                    <div class="form-group">
+                                      <label for="chat-box" class="text-light">Reply</label>
+                                      <input type="text" class="form-control p-4" id="chat-box" aria-describedby="chatHelp" placeholder="Chat Here">
+                                    </div>
+                                  </form>
+                                <div class="user-online d-flex justify-content-between align-items-center text-light p-3">
+                                    <h6>
+                                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                        <i class="fa fa-paperclip" aria-hidden="true"></i>
+                                    </h6>
+                                    <h6>160</h6>
+                                </div>
                             </div>
-                            <div class="side-screen-chat my-2 d-flex justify-content-center align-items-center">
-                            </div>
+                            <!---Start Chat Screen-->
                         </div>
-                        
-                        <div class="col-md-9">
+                        <!--End left-content-->
+
+                        <!--Main Screen-content-start-->
+                        <div class="col-md-9 col-sm-12">
                             <div class="main-screen my-2 d-flex justify-content-center align-items-center">
                                 <div class="loader">
                                     <div class="loader-2">
@@ -48,7 +129,8 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <!--Main Screen-content-End-->
+                            <!--Bottom control-Start-->
                             <div class="main-screen-bottom mb-2 justify-content-center align-items-center">
                             <div class="first">
                                 <div class="d-flex justify-content-center align-items-center mt-3 m-auto">
@@ -68,36 +150,35 @@
                                         <div class="dolar-set set">$3</div>
                                     </div>
                                 </div>
-                                <div class="main-bet bg-info">
-                                    <div class="main-bet-btn">
-                                        BET
-                                    </div>
-                                </div>
+                                <button class="bg-info btn-bet">
+                                    BET
+                                </button>
                             </div>
-                            
-                            
                             </div>
+                            <!--Bottom control-Start-->
                         </div>
                     </div>
-                <!--Left-content-End-->
                 </div>
+            
             <!--Right-content Start-->
-            <div class="col-md-3">
+            
+            <div class="col-md-3 col-sm-12">
                 <div class="bet-log my-2 justify-content-center align-items-center">
                     <div class="row">
+                       
                         <div class="col-md-9">
                             <div class="p-3 d-flex justify-content-between align-items-center">
-                                <div class="top-screen-coeff bg-coeff coeff1">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff2">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff3">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff4">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff1 bg-info text-dark">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff2 bg-secondary">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff3 bg-primary">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff4 bg-warning text-dark">1.19x</div>
                             </div>
                             <div class="px-3 d-flex justify-content-between align-items-center">
-                                <div class="top-screen-coeff bg-coeff coeff5">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff6">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff6">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff7">1.19x</div>
-                                <div class="top-screen-coeff bg-coeff coeff8">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff5 bg-warning text-dark">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff6 bg-primary">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff6 bg-warning text-dark">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff7 bg-primary">1.19x</div>
+                                <div class="top-screen-coeff bg-coeff coeff8 bg-info text-dark">1.19x</div>
                             </div>
                         </div>
                         <div class="col-md-3">
